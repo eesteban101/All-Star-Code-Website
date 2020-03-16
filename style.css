@@ -1,0 +1,99 @@
+/* Navbar and how it looks */
+.topnav {
+  background-color: black;
+  height: 5vh;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+/* Links inside the navbar */
+.topnav a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  padding-right: 2vw;
+  text-decoration: none;
+
+}
+.content {
+     margin-top: 5vh;
+     text-align: center;
+     width: 75vw;
+     margin-left: auto;
+     margin-right: auto;
+     background-color: rgba(255, 255, 255, 0.75);
+     padding-bottom: 2vh;
+     font-size: 20px;
+     font-family: "Lucida Bright", Georgia, serif;
+}
+
+.section {
+     padding-top: 5vh;
+     margin-top: -5vh;
+     width: 65vw;
+     margin-left: auto;
+     margin-right: auto;
+}
+
+html {
+     scroll-behavior: smooth;
+}
+
+body {
+     background-image: url("img/backgroundimg.jpg");
+     background-attachment: fixed;
+
+}
+
+h1 {
+     background-color: black;
+     color: white;
+     width: 75vw;
+     margin-left:-5vw;
+}
+
+.namelogo {
+     background-color: black;
+     width: 75vw;
+     margin-left:-5vw;
+}
+
+.badbunylogo {
+     padding-top: 2.5vh;
+}
+
+.streamlink {
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+}
+
+.streamlink a img {
+     height: 5vw;
+}
+/* Homepage for the webside, should take you to the top of the page */
+#homepage {
+     float: left;
+     padding: 14px 16 px;
+}
+
+/*Making the YouTube Window responsive to changes in mobile vs desktop*/
+.iframeplaylist {
+     position: relative;
+     width: 100%;
+     padding-bottom: 56.25%;
+     height: 0;
+}
+
+.iframeplaylist iframe {
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+}
